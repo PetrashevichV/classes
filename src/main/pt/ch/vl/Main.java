@@ -16,10 +16,10 @@ public class mainCust {
 	public static void main(String[] args) {
 
 		Customer[] customers = new Customer[] {
-				new Customer(107, "Radyuk", "Nikita", "Olegovich", "Pushkina,36", 1000, 129),
-				new Customer(203, "Hod'kova", "Milana", "Aleksandrovna", "Pritytskova,101", 1290, 111),
-				new Customer(10, "Kazyro", "Ilya", "Vladimirovich", "Nezalezhnasti,102", 123, 237),
-				new Customer(108, "Mankevich", "Viktor", "Aleksandrovich", "Kolotushkina,208", 45, 4866) };
+				new Customer(107, "Petrashevich", "Vladimir", "Sergeevich", "Breskaya,85", 1000, 129),
+				new Customer(203, "Mazgo", "Ksenya", "Aleksandrovna", "Pritytskova,101", 1290, 111),
+				new Customer(10, "Ptashuk", "Aleksey", "Sergeevich", "Nezalezhnasti,102", 123, 237),
+				new Customer(108, "Petrashevich", "Ksenya", "Vasylevna", "Kolotushkina,208", 45, 4866) };
 		print(customers);
 		System.out.println("--------------------------");
 		sort(customers);
